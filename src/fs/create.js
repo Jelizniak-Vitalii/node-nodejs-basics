@@ -13,4 +13,4 @@ const create = async () => {
   writeFileSync(filePath, 'I am fresh and young');
 };
 
-create();
+await create();
